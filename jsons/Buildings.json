@@ -1,25 +1,73 @@
 [
+{
+                "name": "Irrigation Upgrade",
+		"cost": 500,
+                "requiredBuilding": "Granary",
+		"requiredTech": "Calendar",
+		"uniques": ["Remove [Irrigation Upgrade] [in this city] <hidden from users>", "[+5]% [Food] [in this city] <for [9999] turns> <hidden from users>"]
+        },
 	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
+		"name": "Cultural Funding",
+		"cost": 500,
+                "requiredBuilding": "Monument",
+		"requiredTech": "Drama and Poetry",
+		"uniques": ["Remove [Cultural Funding] [in this city] <hidden from users>", "[+5]% [Culture] [in this city] <for [9999] turns>"]
 	},
 	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
+		"name": "Manufacturing Funding",
+		"cost": 500,
+                "requiredBuilding": "Workshop",
+		"requiredTech": "Metal Casting",
+		"uniques": ["Remove [Manufacturing Funding] [in this city] <hidden from users>", "[+5]% [Production] [in this city] <for [9999] turns>"]
+	},
+	{
+		"name": "Research Funding",
+		"cost": 500,
+                "requiredBuilding": "University",
+		"requiredTech": "Drama and Poetry",
+		"uniques": ["Remove [Research Funding] [in this city] <hidden from users>", "[+1]% [Science] [in this city] <for [9999] turns>"]
+	},
+	{
+		"name": "Aggressive Investment",
+		"cost": 1000,
+                "requiredBuilding": "Factory",
+		"requiredTech": "Industrialization",
+		"uniques": ["Remove [Aggressive Investment] [in this city] <hidden from users>", "[+50]% [Production] [in this city] <for [10] turns>"]
+	},
+	{
+		"name": "Small Shrine",
+		"cost": 400,
+                "requiredBuilding": "Shrine",
+		"requiredTech": "Archery",
+		"uniques": ["Remove [Small Shrine] [in this city] <hidden from users>", "[+5]% [Faith] [in this city] <for [9999] turns>"]
+	},
+	{
+		"name": "Trade Association",
+		"cost": 500,
+                "requiredBuilding": "Market",
+		"requiredTech": "Guilds",
+		"uniques": ["Remove [Trade Association] [in this city] <hidden from users>", "[+5]% [Gold] [in this city] <for [9999] turns>"]
+	},
+	{
+		"name": "Conscription Drive",
+		"cost": 500,
+                "requiredBuilding": "Barracks",
+		"requiredTech": "Bronze Working",
+		"uniques": ["Remove [Conscription Drive] [in this city] <hidden from users>", "[+50]% Production when constructing [Military] units [in this city] <for [5] turns>"]
+	},
+	{
+		"name": "Missile Silo",
+		"cost": 1000,
+		"requiredTech": "Advanced Ballistics",
+		"uniques": ["Only available <if [Manhattan Project] is constructed>","Remove [Missile Silo] [in this city] <hidden from users>",
+        	"[+20]% Production when constructing [Missile] units [in this city] <for [9999] turns>"]
+	},
+	{
+		"name": "Capitalism",
+		"cost": 1000,
+		"requiredBuilding": "Bank",
+		"requiredTech": "Economics",
+		"uniques": ["Remove [Capitalism] [in this city] <hidden from users>",
+                        "[Gold] cost of purchasing items in cities [-1]% <for [9999] turns>"]
 	}
 ]
